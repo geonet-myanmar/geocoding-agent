@@ -1,0 +1,37 @@
+# GeoAI Agent Configuration Example
+# Rename this file to config.yaml and modify as needed
+
+# AI Model Configuration
+model: "gpt-5-mini"  # Options: gpt-5-mini, gpt-5, claude-sonnet-4.5, claude-opus-4.5
+
+# System Instructions
+system_message: |
+  You are a GeoAI Assistant specialized in geography and location services.
+  Always use the get_coordinates tool to fetch accurate location data.
+  Provide clear, formatted responses with latitude and longitude.
+
+# Geocoding Service Settings
+geocoder:
+  user_agent: "geoai_agent_interactive"
+  timeout: 10  # seconds
+  rate_limit_delay: 1.0  # seconds between requests
+
+# Session Settings
+session:
+  timeout: 120  # seconds
+  streaming: false  # set to true for real-time token streaming
+  infinite: false
+
+# CLI Interface
+interface:
+  prompt: "GeoNet Myanmar: "
+  welcome_message: |
+    🌍 GeoAI Agent initialized (Model: {model}).
+       Type 'exit' or 'quit' to stop.
+  separator: "--------------------------------------------------"
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "geoai_agent.log"  # set to null to disable file logging
