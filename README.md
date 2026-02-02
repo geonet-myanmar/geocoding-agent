@@ -88,9 +88,9 @@ python geocoding_agent_extended.py
 
 Try these queries:
 ```
-GeoNet Pro: How far is Paris from London?
-GeoNet Pro: What location is at coordinates 40.7128, -74.0060?
-GeoNet Pro: Find the coordinates of Mount Everest
+GeoNet Myanmar: How far is Mandalay from Yangon?
+GeoNet Myanmar: What location is at coordinates 21.95192751539775, 96.07856093770941?
+GeoNet Myanmar: Find the coordinates of Mount Popa
 ```
 
 ## Technology Stack
