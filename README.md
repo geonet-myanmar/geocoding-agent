@@ -5,13 +5,12 @@ An interactive AI-powered geocoding assistant built with the GitHub Copilot SDK 
 ## Quick Demo
 
 ```
-GeoNet Myanmar: Where is Bangkok?
-   [Tool] Fetching coordinates for: Bangkok...
-Agent: Bangkok is located at Lat: 13.7563, Lon: 100.5018
+GeoNet Myanmar: Give me the geographic coordinates of Victory Monument, Bangkok
+Agent: Victory Monument, Bangkok — 13°45′53″N, 100°32′19″E (decimal: 13.76472°N, 100.53861°E).
 
-GeoNet Myanmar: What about the Eiffel Tower?
-   [Tool] Fetching coordinates for: Eiffel Tower...
-Agent: Eiffel Tower is located at Lat: 48.8584, Lon: 2.2945
+GeoNet Myanmar: exit
+Exiting...
+Stopping client...
 ```
 
 ## Features
