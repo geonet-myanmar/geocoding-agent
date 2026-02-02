@@ -118,7 +118,7 @@ async def main():
         # Interactive loop
         while True:
             try:
-                user_input = input("\nGeoNet Pro: ")
+                user_input = input("\nGeoNet Myanmar: ")
 
                 if user_input.strip().lower() in ["exit", "quit"]:
                     print("Exiting...")
